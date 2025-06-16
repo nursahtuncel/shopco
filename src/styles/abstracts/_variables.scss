@@ -1,4 +1,11 @@
-/* src/styles/abstracts/_variables.scss */
+@font-face {
+  font-family: "";
+  src: url("./../../../fonts/Fontspring-DEMO-integralcf-bold.otf");
+}
+@font-face {
+  font-family: "Satoshi";
+  src: url("./../../../fonts/OTF/Satoshi-Light.otf");
+}
 
 /* Renkler */
 $color-primary: #2a254b;
@@ -12,6 +19,7 @@ $color-border: #ebe8f4;
 
 /* Fontlar */
 $font-main: "Satoshi", sans-serif;
+$font-second: "Integral,sans-serif";
 
 /* Font Size */
 $fs-xs: 0.75rem; // 12px

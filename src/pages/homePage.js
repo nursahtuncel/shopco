@@ -1,11 +1,8 @@
+import Header from "../components/header";
+
 const Home = () => {
-  const Home = document.createElement("div");
-  Home.className = "home-page";
-
-  Home.innerHTML = `
-   <h1>Home page</h1>
-  `;
-
-  return Home;
+  const home = document.createElement("div");
+  home.appendChild(Header());
+  return home;
 };
 export default Home;

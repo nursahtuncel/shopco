@@ -1,7 +1,7 @@
+import "./styles/main.scss";
 import { router } from "./../router.js";
 
 const app = document.getElementById("app");
-
 const navigateTo = (url) => {
   history.pushState(null, null, url);
   render();

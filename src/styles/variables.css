@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "Satoshi";
+    src: url(./../../public/fonst/OTF/Satoshi-Light.otf);
+}
+
+:root{
+    /* Fonts */
+    --primary-font:"Satoshi";
+
+    /* Color */
+    --clr-white:#FFF;
+    --clr-black:#000;
+    /* Font-sizes */
+    --size-xsmall:12px;
+    --size-small: 14px;
+
+}

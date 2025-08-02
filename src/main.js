@@ -1,27 +1,13 @@
-import "./styles/main.scss";
-import { router } from "./../router.js";
+import page from "page"
+import './main.css'
+import homepage from "./pages/homepage/homepage";
 
-const app = document.getElementById("app");
-const navigateTo = (url) => {
-  history.pushState(null, null, url);
-  render();
-};
 
-const render = () => {
-  app.innerHTML = "";
-  const content = router(window.location.pathname);
-  app.appendChild(content);
-};
 
-window.addEventListener("popstate", render);
+page("/",() =>{
+    const app = document.getElementById("app");
+    app.innerHTML=``;
+  app.appendChild(homepage())
+})
 
-document.addEventListener("DOMContentLoaded", () => {
-  render();
-
-  document.body.addEventListener("click", (e) => {
-    if (e.target.matches("a[data-link]")) {
-      e.preventDefault();
-      navigateTo(e.target.href);
-    }
-  });
-});
+page()

@@ -13,5 +13,7 @@
     /* Font-sizes */
     --size-xsmall:12px;
     --size-small: 14px;
+    --size-medium: 16px;
+    --size-large: 32px;
 
 }

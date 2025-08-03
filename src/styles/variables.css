@@ -14,7 +14,10 @@
     --size-xsmall:12px;
     --size-small: 14px;
     --size-medium: 16px;
+    --size-xmedium: 20px;
+    --size-xxmedium: 24px;
     --size-large: 32px;
+    --size-xlarge: 48px;
     --size-xxl:64px
 
 }

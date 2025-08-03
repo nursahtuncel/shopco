@@ -1,4 +1,5 @@
 import Banner from "../../components/Banner/banner";
+import BrandsSection from "../../components/BrandsComponent/brands";
 import Header from "../../components/Header/header";
 import Hero from "../../components/Hero/hero";
 import NewArrivals from "../../components/NewArrivals/newArrivals";
@@ -9,6 +10,7 @@ const homepage = () => {
   container.appendChild(Banner());
   container.appendChild(Header());
   container.appendChild(Hero());
+  container.appendChild(BrandsSection())
 
   // Data fetch 
   fetch("https://fakestoreapi.com/products?")

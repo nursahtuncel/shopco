@@ -1,0 +1,72 @@
+.new-arrivals{
+    max-width: 1240px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
+}
+.newArrivalsTitle{
+    text-align: center;
+    padding: 40px 20px;
+    color: #000;
+    text-align: center;
+    font-family: "FONTSPRING DEMO - Integral CF Demi Bold";
+    font-size: var(--size-xlarge);
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.card-container{
+    max-width: 1240px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;  
+ 
+}
+.card-container-item{
+    width: 293px;
+}
+.card-container-item img{
+    width: 200px;
+    height: 200px;
+}
+.itemTitle{
+    color: #000;
+    font-family: var(--primary-font);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.itemPrice{
+    color: #000;
+    font-family: var(--primary-font);
+    font-size:var(--size-xxmedium);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.view-btn{
+    margin: auto;
+    width: 218px;
+    color: #000;
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 62px;
+    padding: 16px 54px;
+    background-color: white;
+    margin-top: 35px;
+    margin-bottom: 80px;
+    border: 1px solid #0000001A;
+    cursor: pointer;
+}
+.star{
+    color: #feda0f;
+}
+.emtyStar{
+    color: #e3dddd;
+}
